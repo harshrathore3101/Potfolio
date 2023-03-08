@@ -1,10 +1,15 @@
-// Importing the TextShpere component
-import TextShpere from "./components/TextShpere";
+import SideNav from "./Components/SideNav";
+import Main from "./Components/Main.js";
+import TextShpere from "./Components/TextShpere";
 
 function App() {
   return (
     <>
-      <TextShpere />
+      <div id="Full">
+        <TextShpere />
+        {/* <SideNav /> */}
+        {/* <Main /> */}
+      </div>
     </>
   );
 }
